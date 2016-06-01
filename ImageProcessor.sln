@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Underwater", "Underwater\Underwater.csproj", "{5C06D87A-7FF2-466E-A42A-9C33B23333E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormApp", "WinFormApp\WinFormApp.csproj", "{FE854A15-1B38-45E2-8F27-4B11CE002A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessing", "ImageProcessing\ImageProcessing.csproj", "{9B73519B-FD27-4698-AD40-4F2A47E365AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AForge.Imaging.Filters", "AForge.Imaging.Filters\AForge.Imaging.Filters.csproj", "{660B6C74-446F-4A8D-A8C2-2B26C29EEE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Levels", "Histogram\Levels.csproj", "{98E785AA-6D41-4EB0-8E3A-367EFD301CCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Filters", "Filters", "{620EF394-AB16-43C5-9AD2-8E116F221801}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C06D87A-7FF2-466E-A42A-9C33B23333E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C06D87A-7FF2-466E-A42A-9C33B23333E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C06D87A-7FF2-466E-A42A-9C33B23333E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C06D87A-7FF2-466E-A42A-9C33B23333E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE854A15-1B38-45E2-8F27-4B11CE002A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE854A15-1B38-45E2-8F27-4B11CE002A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE854A15-1B38-45E2-8F27-4B11CE002A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE854A15-1B38-45E2-8F27-4B11CE002A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B73519B-FD27-4698-AD40-4F2A47E365AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B73519B-FD27-4698-AD40-4F2A47E365AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B73519B-FD27-4698-AD40-4F2A47E365AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B73519B-FD27-4698-AD40-4F2A47E365AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660B6C74-446F-4A8D-A8C2-2B26C29EEE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660B6C74-446F-4A8D-A8C2-2B26C29EEE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660B6C74-446F-4A8D-A8C2-2B26C29EEE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660B6C74-446F-4A8D-A8C2-2B26C29EEE18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E785AA-6D41-4EB0-8E3A-367EFD301CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E785AA-6D41-4EB0-8E3A-367EFD301CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E785AA-6D41-4EB0-8E3A-367EFD301CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E785AA-6D41-4EB0-8E3A-367EFD301CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C06D87A-7FF2-466E-A42A-9C33B23333E9} = {620EF394-AB16-43C5-9AD2-8E116F221801}
+		{98E785AA-6D41-4EB0-8E3A-367EFD301CCD} = {620EF394-AB16-43C5-9AD2-8E116F221801}
+	EndGlobalSection
+EndGlobal
